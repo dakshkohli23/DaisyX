@@ -1,4 +1,4 @@
-# DaisyXBot example config
+# RobinXBot example config
 
 
 # Basic
@@ -24,8 +24,8 @@ REDIS_URI: "redis-1324.c234.us-east-1-4.ec4.cloud.redislabs.com"
 REDIS_PORT: 15514
 REDIS_PASS: "sdfgg"
 TEMP_MAIL_KEY: ""
-OWNER_ID: 1141839926
-OPERATORS: [1141839926, 00000000]
+OWNER_ID: 677682427
+OPERATORS: [677682427, 00000000]
 SUPPORT_CHAT: -000000000
 LYDIA_API_KEY: ""
 
