@@ -65,7 +65,7 @@ async def _(event):
                 f.write("\n" + title)
                 f.write("\nBook link:- " + link + "\n\n")
 
-        f.write("By @DaisyXBot.")
+        f.write("By @RobinXBot.")
         f.close()
         caption = "A collabration with Friday.\n Join Support @DaisySupport_Official"
 
