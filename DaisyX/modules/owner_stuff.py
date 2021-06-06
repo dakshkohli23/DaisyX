@@ -217,7 +217,7 @@ async def upload_file(message):
 
 @register(cmds="logs", is_op=True)
 async def upload_logs(message):
-    input_str = "logs/DaisyX.log"
+    input_str = "logs/daisy.log"
     with open(input_str, "rb") as f:
         await tbot.send_file(message.chat.id, f, reply_to=message.message_id)
 
@@ -238,7 +238,7 @@ async def get_event(message):
 @register(cmds="stats", is_op=True)
 async def stats(message):
     if message.from_user.id in skemmers:
-        text = f"<b>Daisy {DAISY_VERSION} stats</b>\n"
+        text = f"<b>Nico Robin {DAISY_VERSION} Stats</b>\n"
 
         for module in [m for m in LOADED_MODULES if hasattr(m, "__stats__")]:
             text += await module.__stats__()
