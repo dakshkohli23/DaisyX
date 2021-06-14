@@ -1,6 +1,5 @@
 # Copyright (C) 2018 - 2020 MrYacha. All rights reserved. Source code available under the AGPL.
-# Copyright (C) 2021 TeamDaisyX
-# Copyright (C) 2020 Inuka Asith
+# Copyright (C) 2021 Nico Robin
 
 # This file is part of Daisy (Telegram Bot)
 
@@ -98,7 +97,7 @@ async def get_start_func(message, strings, edit=False):
     buttons.add(
         InlineKeyboardButton(strings["btn_channel"], url="https://t.me/Compass_Botz"),
         InlineKeyboardButton(
-            strings["btn_group"], url="https://t.me/DaisySupport_Official"
+            strings["btn_group"], url="https://t.me/Compass_Botz"
         ),
     )
     buttons.add(
