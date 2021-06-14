@@ -1,8 +1,6 @@
-# Copyright (C) 2020 DevsExpo
-# Copyright (C) 2021 Inuka Asith
 # Copyright (C) 2021 TeamDaisyX
 
-# This file is part of Daisy (Telegram Bot)
+# This file is part of Nico Robin (Telegram Bot)
 
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
@@ -67,12 +65,12 @@ async def _(event):
 
         f.write("By @RobinXBot.")
         f.close()
-        caption = "A collabration with Friday.\n Join Support @DaisySupport_Official"
+        caption = "A collabration with Friday.\n Join Support @Compass_Botz"
 
         await tbot.send_file(
             event.chat_id,
             "book.txt",
-            caption=f"**BOOKS GATHERED SUCCESSFULLY!\n\nBY DAISYX. JOIN THE SUPPORT @DaisySupport_Official.**",
+            caption=f"**BOOKS GATHERED SUCCESSFULLY!\n\nBY DAISYX. JOIN THE SUPPORT @Compass_Botz.**",
         )
         os.remove("book.txt")
         await KkK.delete()
