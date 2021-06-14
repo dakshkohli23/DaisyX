@@ -350,7 +350,7 @@ async def get_notes_list(message, strings, chat, keyword=None, pm=False):
             await message.answer(text)
 
 
-@register(cmds="search")
+@register(cmds="searchnotes")
 @chat_connection()
 @get_strings_dec("notes")
 @clean_notes
@@ -774,7 +774,7 @@ Also notes perfectly working in PM with Daisy.
 - /clear (name): deletes the note.
 - /notes or /saved: Lists all notes.
 - /noteinfo (name): Shows detailed info about the note.
-- /search (search pattern): Search text in notes
+- /searchnotes (search pattern): Search text in notes
 - /clearall: Clears all notes
 
 <b>Only in groups:</b>
