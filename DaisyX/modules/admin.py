@@ -98,7 +98,7 @@ async def set_chat_photo(_, message):
         await message.reply_text(e)
 
 
-__mod_name__ = "Admin"
+__mod_name__ = "🎖️Admin"
 
 __help__ = """
 Make it easy to admins for manage users and groups with the admin module!
