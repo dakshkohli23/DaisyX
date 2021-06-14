@@ -1,16 +1,15 @@
 {
-  "name": "DaisyX",
+  "name": "Nico Robin",
   "description": "?",
   "keywords": [
     "telegram",
-    "Daisy",
+    "Nico-Robin",
     "plugin",
-    "telegram-DaisyX",
-    "fuck-TG"
+    "telegram-nico-robin"
   ],
   "repository": "https://github.com/TeamDaisyX/Daisy-x",
   "website": "daisyproject.studio",
-  "success_url": "t.me/DaisyXUpdates",
+  "success_url": "t.me/Compass_Botz",
   "buildpacks": [
    {
      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
