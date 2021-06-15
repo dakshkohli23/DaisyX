@@ -19,8 +19,8 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 import html
-
 import random
+
 import bs4
 import jikanpy
 import requests
@@ -327,9 +327,11 @@ STICKERS = (
     "CAACAgUAAxkBAAECXWRgtiex1-92fGAkCL6F4hUljcB-DwACRgUAAo8k-yXR5cffI3xb1B8E",
 )
 
+
 @register(cmds="alola")
 async def alola(message):
     await message.reply_sticker(random.choice(STICKERS))
+
 
 __mod_name__ = "Anime"
 
