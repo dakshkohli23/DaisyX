@@ -1,7 +1,6 @@
 # Copyright (C) 2018 - 2020 MrYacha. All rights reserved. Source code available under the AGPL.
 # Copyright (C) 2021 HitaloSama.
-# Copyright (C) 2021 TeamDaisyX
-# Copyright (C) 2020 Inuka Asith
+# Copyright (C) 2021 Nico Robin
 
 # This file is part of Daisy (Telegram Bot)
 
@@ -323,8 +322,10 @@ def quote(_, message):
 # added ganime search based on gogoanime.so
 
 STICKERS = (
-    "CAACAgUAAxkBAAECXWJgtiefn2bNuYvjcasry5Lq-mzdswACRQUAAo8k-yWDStn_vuRiJx8E",
-    "CAACAgUAAxkBAAECXWRgtiex1-92fGAkCL6F4hUljcB-DwACRgUAAo8k-yXR5cffI3xb1B8E",
+    "CAACAgUAAxkBAAECbnZgyJGEHyCnDatqd4JGXjHY70WvEQACTwMAAjQsSVYUEq35xsptRh8E",
+    "CAACAgUAAxkBAAECbnRgyJGBCL0pg7RixVWueHiPjHiRRgAC_wIAAgnlSFZJPIervh8EIR8E",
+    "CAACAgUAAxkBAAECbnJgyJF-YqDEPhtmodbo08527gdIygACwAIAAvmCQVZ-bxgbwQ5NAR8E",
+    "CAACAgUAAxkBAAECbnBgyJF7sPfpwPOxYF1l67pS4ErMoQACdAIAAt8gQFZ3Lz2I-QPBqR8E",
 )
 
 
