@@ -347,7 +347,7 @@ async def alola(message):
     await message.reply_sticker(random.choice(STICKERS))
 
 
-__mod_name__ = "Anime"
+__mod_name__ = "🔮Anime"
 
 __help__ = """
 Get information about anime, manga or anime characters.
@@ -362,4 +362,5 @@ Get information about anime, manga or anime characters.
 - /ganime (anime): search an anime on gogoanime.so
 - /upcoming: returns a list of new anime in the upcoming seasons.
 - /aq : get anime random quote
+- /alola : Get Alola characters stickers
 """
