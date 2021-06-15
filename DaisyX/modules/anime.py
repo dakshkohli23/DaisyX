@@ -1,5 +1,4 @@
 # Copyright (C) 2018 - 2020 MrYacha. All rights reserved. Source code available under the AGPL.
-# Copyright (C) 2021 HitaloSama.
 # Copyright (C) 2021 Nico Robin
 
 # This file is part of Daisy (Telegram Bot)
@@ -326,6 +325,7 @@ STICKERS = (
     "CAACAgUAAxkBAAECbnRgyJGBCL0pg7RixVWueHiPjHiRRgAC_wIAAgnlSFZJPIervh8EIR8E",
     "CAACAgUAAxkBAAECbnJgyJF-YqDEPhtmodbo08527gdIygACwAIAAvmCQVZ-bxgbwQ5NAR8E",
     "CAACAgUAAxkBAAECbnBgyJF7sPfpwPOxYF1l67pS4ErMoQACdAIAAt8gQFZ3Lz2I-QPBqR8E",
+    "CAACAgUAAxkBAAECbm5gyJF4pGEKnaHAOC8dVPndlEU_CAACYgMAAswnSFbISeAgaEn-bR8E",
 )
 
 
