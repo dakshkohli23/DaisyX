@@ -1,20 +1,7 @@
-# Copyright (C) 2018 - 2020 MrYacha. All rights reserved. Source code available under the AGPL.
-# Copyright (C) 2021 TeamDaisyX
+# Copyright (C) 2021 Nico Robin
 
-# This file is part of Daisy (Telegram Bot)
+# This file is part of Nico Robin (Telegram Bot)
 
-# This program is free software: you can redistribute it and/or modify
-# it under the terms of the GNU Affero General Public License as
-# published by the Free Software Foundation, either version 3 of the
-# License, or (at your option) any later version.
-
-# This program is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-# GNU Affero General Public License for more details.
-
-# You should have received a copy of the GNU Affero General Public License
-# along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 import io
 import random
@@ -1100,7 +1087,7 @@ async def __import__(chat_id, data):
     await get_greetings_data.reset_cache(chat_id)
 
 
-__mod_name__ = "Greetings"
+__mod_name__ = "🙏🏻Greetings"
 
 __help__ = """
 <b>Available commands:</b>
