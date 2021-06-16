@@ -1756,9 +1756,9 @@ file_help = file_help.replace(".py", "")
 file_helpo = file_help.replace("_", " ")
 
 __help__ = """
-**Some memes command, find it all out yourself !**
+**Some Memes command, find it all out yourself !**
 
- - /owo: OWO de text
+ - /owu: OWU de text
  - /stretch: STRETCH de text
  - /clapmoji: Type in reply to a message and see magic
  - /bmoji: Type in reply to a message and see magic
@@ -1791,8 +1791,8 @@ __help__ = """
  - /sticklet <i>text</i>: Turn a text into a sticker
  - /fortune: gets a random fortune quote
  - /quotly: Type /quotly in reply to a message to make a sticker of that
- - /animate: Enwrap your text in a beautiful anime
+ - /animate text: Enwrap your text in a beautiful anime
  
 """
 
-__mod_name__ = "Memes"
+__mod_name__ = "🤪Memes"
