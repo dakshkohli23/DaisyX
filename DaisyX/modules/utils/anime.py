@@ -126,7 +126,6 @@ character_query = """
                      full
                      native
                }
-               isBirthday
                siteUrl
                favourites
                image {
