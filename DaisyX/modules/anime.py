@@ -134,7 +134,7 @@ async def character_search(message):
     json = (
         requests.post(url, json={"query": character_query, "variables": variables})
         .json()["data"]
-        .get("Character", None)
+        .get("Character")
     )
     if json:
         ms_g = f"<b>{json.get('name').get('full')}</b>(<code>{json.get('name').get('native')}</code>)\n"
