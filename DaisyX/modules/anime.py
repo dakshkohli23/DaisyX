@@ -105,7 +105,7 @@ async def anime_search(message):
         if trailer:
             buttons = InlineKeyboardMarkup().add(
                 InlineKeyboardButton(text="More Info", url=info),
-                InlineKeyboardButton(text="Trailer 🎬", url=trailer),
+                InlineKeyboardButton(text="🎬 Trailer", url=trailer),
             )
         else:
             buttons = InlineKeyboardMarkup().add(
