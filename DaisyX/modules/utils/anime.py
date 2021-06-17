@@ -16,10 +16,10 @@
 
 def shorten(description, info="anilist.co"):
     ms_g = ""
-    if len(description) > 700:
+    if len(description) > 1000:
         description = description[0:500] + "..."
         ms_g += (
-            f"\n<b>Description</b>: <i>{description}</i> <a href='{info}'>Read More</a>"
+            f"\n<b>Description</b>:\n <i>{description}</i> <a href='{info}'><b>Read More...</b></a>"
         )
     else:
         ms_g += f"\n<b>Description</b>: <i>{description}</i>"
@@ -126,7 +126,9 @@ character_query = """
                      first
                      last
                      full
+                     native
                }
+               isBirthday
                siteUrl
                favourites
                image {
