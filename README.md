@@ -1,5 +1,5 @@
 
-<h1 align="center"><b>❤️ DaisyX 2.0  ❤️</b></h1>
+<h1 align="center"><b>❤️ ɴɪᴄᴏ ʀᴏʙɪɴ  ❤️</b></h1>
 
 <h4 align="center">A Powerful, Smart And Simple Group Manager <br> ... Written with AioGram , Pyrogram and Telethon...</h4>
 <p align='center'>
@@ -44,15 +44,15 @@ Complete guide on deploying @DaisyXBot's clone on Heroku.
 ### Self-hosting (For Devs) ⚔
 ```sh
 # Install Git First (apt-instll git)
-$ git clone https://github.com/TeamDaisyX/DaisyX
+$ git clone https://github.com/dakshkohli23/DaisyX
 $ cd DaisyX
 # Upgrade sources
 $ bash deploy.sh
 # Install All Requirements 
-$ pip(3) install -r requirements.txt
+$ pip3 install -r requirements.txt
 # Rename ./DaisyX/data/bot_conf.yaml.example to bot_conf.yaml and fill
 # Start Bot 
-$ python(3) -m DaisyX
+$ python3 -m DaisyX
 ```
 
 ### Mandatory Vars 📒
@@ -80,7 +80,7 @@ $ python(3) -m DaisyX
  - [Alita_Robot](https://github.com/Divkix/Alita_Robot/)
  - [FridayUserbot](https://github.com/DevsExpo/FridayUserbot)
  - [MissJuliaRobot](https://github.com/MissJuliaRobot/MissJuliaRobot)
- - [DaisyX](https://github.com/teamdaisyx/daisy-x)
+ - [DaisyX](https://github.com/teamofdaisyx/daisy-x)
  - [ADV-Auto-Filter-Bot-V2](https://github.com/AlbertEinsteinTG/Adv-Auto-Filter-Bot-V2)
  - [Image-Editor](https://github.com/TroJanzHEX/Image-Editor/)
  - [Utah](https://github.com/minatouzuki/utah).
@@ -121,7 +121,7 @@ Anything missing kindly let us know at [Daisy Support](https://t.me/DaisySupport
 
 > This project exists thanks to these awesome developers and their codes and contributions.
 
-<a href="https://github.com/TeamDaisyX/DaisyX/graphs/contributors"><img src="https://opencollective.com/teamdaisyxdaisy/contributors.svg?width=890&button=false" /></a>
+<a href="https://github.com/TeamOfDaisyX/DaisyX/graphs/contributors"><img src="https://opencollective.com/teamdaisyxdaisy/contributors.svg?width=890&button=false" /></a>
 
 > And credits goes to all who supported, all who helped and API & environmental equirement package devs and all projects helped in making this project.
 > Special thanks to you for using bot
