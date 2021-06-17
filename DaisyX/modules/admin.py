@@ -146,7 +146,7 @@ Make it easy to admins for manage users and groups with the admin module!
 - /whois : Gives user's info like pyrogram
 
 <b> Other </b>
-- /invitelink: Get chat's invitr link
+- /invitelink: Get chat's invite link
 - /settitle [entity] [title]: sets a custom title for an admin. If no [title] provided defaults to "Admin"
 - /setgrouptitle [text] set group title
 - /setgrouppic: reply to an image to set as group photo
