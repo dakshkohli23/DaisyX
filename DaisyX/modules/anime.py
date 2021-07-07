@@ -26,7 +26,6 @@ from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram import filters
 
 from DaisyX.decorator import register
-from DaisyX.services.pyrogram import pbot
 
 from .utils.anime import (
     airing_query,
@@ -314,7 +313,15 @@ async def kayo(message):
 @anime.on_message(filters.command("aq"))
 def quote(_, message):
     quote = requests.get("https://animechan.vercel.app/api/random").json()
-    message.reply_text('`'+quote['quote']+'`\n '+quote['anime']+' (In '+quote['character']+')')
+    message.reply_text(
+        "`"
+        + quote["quote"]
+        + "`\n "
+        + quote["anime"]
+        + " (In "
+        + quote["character"]
+        + ")"
+    )
 
 
 # added ganime search based on gogoanime.so
