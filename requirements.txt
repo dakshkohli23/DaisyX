@@ -1,7 +1,7 @@
 # General
-telethon
+telethon==1.19.5
 pyrogram>=1.0.7
-aiogram
+aiogram == 2.13
 
 # DBs
 redis
@@ -123,6 +123,3 @@ pygithub
 #
 Skem==0.3.3
 gogoanime-api
-
-
-
