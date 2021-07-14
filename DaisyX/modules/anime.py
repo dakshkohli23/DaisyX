@@ -310,18 +310,11 @@ async def kayo(message):
     await site_search(message, "ganime")
 
 
-@anime.on_message(filters.command("aq"))
+@pbot.on_message(filters.command("aq"))
 def quote(_, message):
     quote = requests.get("https://animechan.vercel.app/api/random").json()
-    message.reply_text(
-        "`"
-        + quote["quote"]
-        + "`\n "
-        + quote["anime"]
-        + " (In "
-        + quote["character"]
-        + ")"
-    )
+    quote = truth.get("quote")
+    message.reply_text(quote)
 
 
 # added ganime search based on gogoanime.so
@@ -356,7 +349,7 @@ async def alola(message):
 __mod_name__ = "🔮Anime"
 
 __help__ = """
-Get information about anime, manga or anime characters.
+Get Information about Anime, Manga or Anime Characters.
 
 <b>Available commands:</b>
 - /anime (anime): returns information about the anime.
