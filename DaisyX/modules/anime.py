@@ -26,6 +26,7 @@ from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram import filters
 
 from DaisyX.decorator import register
+from DaisyX.services.pyrogram import pbot
 
 from .utils.anime import (
     airing_query,
@@ -133,7 +134,7 @@ async def character_search(message):
     json = (
         requests.post(url, json={"query": character_query, "variables": variables})
         .json()["data"]
-        .get("Character")
+        .get("Character", None)
     )
     if json:
         ms_g = f"<b>{json.get('name').get('full')}</b>(<code>{json.get('name').get('native')}</code>)\n"
@@ -265,7 +266,7 @@ async def site_search(message, site: str):
             result += f"• <a href='{post_link}'>{post_name}</a>\n"
 
     elif site == "ganime":
-        search_url = f"https://gogoanime.so//search.html?keyword={search_query}"
+        search_url = f"https://gogoanime.pe//search.html?keyword={search_query}"
         html_text = requests.get(search_url).text
         soup = bs4.BeautifulSoup(html_text, "html.parser")
         search_result = soup.find_all("h2", {"class": "title"})
@@ -317,7 +318,7 @@ def quote(_, message):
     message.reply_text(quote)
 
 
-# added ganime search based on gogoanime.so
+# added ganime search based on gogoanime.pe
 
 STICKERS = (
     "CAACAgUAAxkBAAECbnZgyJGEHyCnDatqd4JGXjHY70WvEQACTwMAAjQsSVYUEq35xsptRh8E",
