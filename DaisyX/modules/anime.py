@@ -53,13 +53,13 @@ async def anime_airing(message):
     response = requests.post(
         url, json={"query": airing_query, "variables": variables}
     ).json()["data"]["Media"]
-    ms_g = f"<b>Name</b>: <b>{response['title']['romaji']}</b>(<code>{response['title']['native']}</code>)\n<b>ID</b>: <code>{response['id']}</code>"
+    ms_g = f"<b>➜ Title</b>: <b>{response['title']['romaji']}</b>(<code>{response['title']['native']}</code>)\n<b>➜ ID</b>: <code>{response['id']}</code>"
     if response["nextAiringEpisode"]:
         airing_time = response["nextAiringEpisode"]["timeUntilAiring"] * 1000
         airing_time_final = t(airing_time)
-        ms_g += f"\n<b>Episode</b>: <code>{response['nextAiringEpisode']['episode']}</code>\n<b>Airing In</b>: <code>{airing_time_final}</code>"
+        ms_g += f"\n<b>➜ Episode</b>: <code>{response['nextAiringEpisode']['episode']}</code>\n<b>➜ Airing In</b>: <code>{airing_time_final}</code>"
     else:
-        ms_g += f"\n<b>Episode</b>: <code>{response['episodes']}</code>\n<b>Status</b>: <code>N/A</code>"
+        ms_g += f"\n<b>➜ Episode</b>: <code>{response['episodes']}</code>\n<b>➜ Status</b>: <code>N/A</code>"
     await message.reply(ms_g)
 
 
