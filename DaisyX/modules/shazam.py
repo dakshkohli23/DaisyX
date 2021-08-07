@@ -46,8 +46,8 @@ async def shazamm(client, message):
     messageo = f"""<b>Song Shazamed.</b>
 <b>Song Name : </b>{title}
 <b>Song By : </b>{by}
-<u><b>Identified Using @RobinxBot - Join Our Main Channel @Cartoon_Seriesz</b></u>
-<i>Powered by @FridayOT</i>
+<b>Identified Using @RobinxBot</b>
+<b>Join Our Main Channel @Cartoon_Seriesz</b>
 """
     await client.send_photo(message.chat.id, image, messageo, parse_mode="HTML")
     os.remove(downloaded_file_name)
