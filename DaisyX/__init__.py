@@ -25,7 +25,7 @@ from DaisyX.services.telethon import tbot
 from DaisyX.utils.logger import log
 from DaisyX.versions import DAISY_VERSION
 
-# from aiogram.contrib.fsm_storage.redis import RedisStorage2
+from aiogram.contrib.fsm_storage.redis import *
 
 
 log.info("----------------------")
