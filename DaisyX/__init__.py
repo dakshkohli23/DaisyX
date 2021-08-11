@@ -19,12 +19,14 @@ import logging
 import spamwatch
 from aiogram import Bot, Dispatcher, types
 from aiogram.bot.api import TELEGRAM_PRODUCTION, TelegramAPIServer
-#from aiogram.contrib.fsm_storage.redis import RedisStorage2
 
 from DaisyX.config import get_bool_key, get_int_key, get_list_key, get_str_key
 from DaisyX.services.telethon import tbot
 from DaisyX.utils.logger import log
 from DaisyX.versions import DAISY_VERSION
+
+# from aiogram.contrib.fsm_storage.redis import RedisStorage2
+
 
 log.info("----------------------")
 log.info("|      Nico Robin      |")
