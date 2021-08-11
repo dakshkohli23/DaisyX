@@ -1,7 +1,7 @@
 # General
 telethon==1.19.5
 pyrogram>=1.0.7
-aiogram == 2.13
+aiogram == 2.0.0
 
 # DBs
 redis
