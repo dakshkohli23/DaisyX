@@ -5,7 +5,8 @@ aiogram
 
 # DBs
 redis
-aioredis # Redis memery storage fom aiogram
+aioredis
+# Redis memery storage fom aiogram
 pymongo
 motor
 odmantic # MongoDB ORM
