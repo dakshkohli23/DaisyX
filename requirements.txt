@@ -55,6 +55,7 @@ feedparser
 tldextract
 dateparser
 twistdl
+logging
 
 #Pyrogram
 tgCrypto>=1.2.2
